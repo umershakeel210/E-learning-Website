@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Video playlist</title>
+
+   <link rel="icon" href="/Pictures/Pic-20.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+    <img src="/Pictures/Pic-20.png" >
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search " maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="/Pictures/Pic-1.jpg" class="image" alt="">
+         <h3 class="name">Umer Shakeel</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="/Pictures/Pic-1.jpg" class="image" alt="">
+      <h3 class="name">Umer Shakeel</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="aboutus.html"><i class="fas fa-question"></i><span>About us</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+
+<section class="playlist-details">
+
+   <h1 class="heading">playlist details</h1>
+
+   <div class="row">
+
+      <div class="column">
+         <form action="" method="post" class="save-playlist">
+            <button type="submit"><i class="far fa-bookmark"></i> <span>save playlist</span></button>
+         </form>
+   
+         <div class="thumb">
+            <img src="/Pictures/Pic-5.png" alt="">
+            <span>10 videos</span>
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="/Pictures/Pic-2.png" alt="">
+            <div>
+               <h3>M-Zain</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+   
+         <div class="details">
+            <h3>complete HTML tutorial</h3>
+            <p>Learn HTML in this Videos: In this video, we will see how to create beautiful websites using Html. HTML is the language used for website design. This hindi course on html will teach you everything you need to learn about html tags, lists, tables, seo etc.</p>
+            <a href="teacher_profile.html" class="inline-btn">view profile</a>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<section class="playlist-videos">
+
+   <h1 class="heading">playlist videos</h1>
+
+   <div class="box-container">
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="/Pictures/Pic-5.png" alt="">
+         <h3>complete HTMl tutorial (part 01)</h3>
+      </a>
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="/Pictures/Pic-5.png" alt="">
+         <h3>complete HTML tutorial (part 02)</h3>
+      </a>
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="/Pictures/Pic-5.png" alt="">
+         <h3>complete HTML tutorial (part 03)</h3>
+      </a>
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="/Pictures/Pic-5.png" alt="">
+         <h3>complete HTML tutorial (part 04)</h3>
+      </a>
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="/Pictures/Pic-5.png" alt="">
+         <h3>complete HTML tutorial (part 05)</h3>
+      </a>
+
+      <a class="box" href="watch-video.html">
+         <i class="fas fa-play"></i>
+         <img src="/Pictures/Pic-5.png" alt="">
+         <h3>complete HTML tutorial (part 06)</h3>
+      </a>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+    &copy; copyright @ 2024 by <span>Mr. Umer Shakeel </span> | All rights reserved!
+ 
+ </footer>
+ 
+<script src="script.js"></script>
+
+   
+</body>
+</html>
